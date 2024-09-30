@@ -1,0 +1,93 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    background-color: #F5F5DC;  
+    font-family: 'Times New Roman', Times, serif;  
+}  
+
+h1 {  
+    text-align: center;  
+    font-size: 60px; /* Tamaño del título */  
+    margin: 15px 30px 30px;  
+    color: #8B9467;  
+    text-shadow: 2px 2px 8px #F7DC6F;  
+}  
+
+/* Contenedor principal */  
+.content {  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: auto;  
+    height: 80vh;  
+    display: flex;  
+    justify-content: center;  
+    text-align: center;  
+    flex-wrap: wrap;  
+    background-color: #F5F5DC;  
+    padding: 20px;  
+    border-radius: 15px;  
+    box-shadow: 0px 0px 4px 0px #8B9467;  
+}  
+
+/* Recuadros de tablas */  
+.table {  
+    width: 30%; /* Cambiado para que quepan 3 en la misma fila */  
+    height: 500px; /* Reducido para ajustar a la pantalla */  
+    margin: 30px; /* Espaciado entre los recuadros */  
+    border: 2px solid #8B9467;  
+    padding: 50px; /* Reducido el padding para ajuste */  
+    border-radius: 15px;  
+    box-shadow: 0px 0px 4px 0px #8B9467;  
+    text-align: center;  
+    flex-grow: 1;  
+    color: #333333;  
+    text-shadow: 3px 3px 6px #F7DC6F;  
+}  
+
+.table > h2 {  
+    font-size: 25px;  
+    margin-bottom: 15px;  
+    color: #8B9467;  
+}  
+
+.table img {  
+    width: 100px;  
+    margin-bottom: 30px; /* Reducido el margen */  
+    border-radius: 10px;  
+}  
+
+.table > h3 {  
+    font-size: 22px; /* Ajustado un poco */  
+    margin-bottom: 10px;  
+    color: #8B9467;  
+}  
+
+.table > p {  
+    font-size: 18px; /* Ajustado para un mejor aspecto */  
+    color: #333333;  
+}  
+
+.boton {  
+    display: inline-block;  
+    width: 160px;  
+    padding: 11px;  
+    background: #8B9467;  
+    text-decoration: none;  
+    color: #F7DC6F;  
+    text-align: center;  
+    font-size: 13px;  
+    font-weight: 500;  
+    border-radius: 10px;  
+    cursor: pointer;  
+}  
+
+.table:hover .boton {  
+    background: #F7DC6F;  
+    color: #8B9467;  
+    transition: 0.5s all;  
+    transform: scale(1.1);  
+}

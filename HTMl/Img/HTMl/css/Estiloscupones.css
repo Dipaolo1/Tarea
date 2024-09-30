@@ -1,0 +1,20 @@
+.imagen-cuponnormal{
+    width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  .imagen-cuponfrio{
+    width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  .imagen-cuponespecialidad{
+    width: 30%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+  }

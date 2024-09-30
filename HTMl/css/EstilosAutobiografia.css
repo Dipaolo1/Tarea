@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../Img/pexels-donghuangmingde-2313037.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .image-box {
+    width: 380px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 10px -1px 24px;
+  }
+  .box{
+      width: 430px;
+      background: rgba(0, 0, 0, 0.5); 
+      margin: 15px auto;
+      border-radius: 10px;
+      padding: 20px;
+      color: #FFC080; 
+      text-align: center;
+  }
+  
+  .box h1{
+      font-size: 35px;
+      letter-spacing: 4px;
+      font-weight: 600;
+      border-top: 2px;
+      margin-bottom: 5px ;
+      color: #964B00; 
+      text-shadow: 10px -1px 24px,0px  #F5DEB3; 
+    }
+  
+  .box h2{
+      font-size: 35px;
+      letter-spacing: 4px;
+      font-weight: 500;
+      margin-bottom: 5px ;
+      color: #964B00; 
+  }
+  
+  .box p{
+      text-align: justify;
+      font-weight: 300;
+      color: #FFC080; 
+  }
+  
+  ul{
+      list-style: none;
+      margin-top: 10px;
+  }
+  
+  ul li{
+      display: inline-block;
+  }
+  
+  .box ul li a{
+      color: #FFC080; 
+      font-size: 30px;
+      padding: 8px 10px;
+      display: block;
+      transition: all 0.7s ease-in-out;
+  }
+  
+  .box ul li a:hover{
+      color: #964B00; 
+      transform: scale(1.4);
+  }
+  a:hover span {
+    color: #FFC080;
+  }

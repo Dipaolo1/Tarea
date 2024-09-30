@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+  background: #57ee05;;
+  font-family: Century Georgia, 'Times New Roman', Times, serif;
+    }
